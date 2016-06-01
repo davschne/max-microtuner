@@ -63,9 +63,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "int", "int", "" ],
+					"outlettype" : [ "int", "float", "" ],
 					"patching_rect" : [ 222.0, 116.0, 173.0, 20.0 ],
-					"text" : "unpack i i s"
+					"text" : "unpack i f s"
 				}
 
 			}
@@ -107,8 +107,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 222.0, 83.0, 107.0, 20.0 ],
-					"text" : "patcherargs 60 60"
+					"patching_rect" : [ 222.0, 83.0, 111.0, 20.0 ],
+					"text" : "patcherargs 60 60."
 				}
 
 			}
@@ -150,7 +150,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 283.75, 192.0, 68.0, 20.0 ],
+					"patching_rect" : [ 294.75, 182.0, 68.0, 20.0 ],
 					"text" : "calc tuning"
 				}
 
@@ -315,7 +315,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 88.25, 202.0, 55.0, 20.0 ],
+					"patching_rect" : [ 71.5, 202.0, 55.0, 20.0 ],
 					"text" : "calc 8ve"
 				}
 
